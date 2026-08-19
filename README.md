@@ -12,7 +12,7 @@ The application serves as a user-friendly interface for the machine learning mod
 ## 🚀 Live Demo
 You can try the live application deployed on Streamlit Community Cloud:
 
-**[👉 Access the Live App Here](https://credit-card-fraud-detection-mlp.streamlit.app/)**
+**[👉 Access the Live App Here](https://credit-card-fraud-detection-alert.streamlit.app/)**
 
 ---
 
@@ -35,7 +35,6 @@ This project addresses the critical task of identifying fraudulent credit card t
 - **Probability Score**: Displays the model's confidence in its prediction as a probability score.
 - **Feature Engineering**: Automatically calculates derived features like `distance` (using the Haversine formula) and time-based features from user input.
 - **Detailed Feedback**: Shows the engineered features that were sent to the model for prediction.
-- **Easy Deployment**: Includes a Dev Container configuration for one-click setup in environments like GitHub Codespaces.
 
 ## 💻 Technology Stack
 - **Backend & ML**: Python
@@ -43,7 +42,7 @@ This project addresses the critical task of identifying fraudulent credit card t
 - **Web Framework**: Streamlit
 - **Data Manipulation**: Pandas, NumPy
 - **Core ML Library**: Scikit-learn
-- **Development Environment**: VS Code, GitHub Codespaces
+- **Development Environment**: VS Code
 
 ## ⚙️ Methodology
 The LightGBM model was trained and evaluated following a systematic machine learning workflow in the `credit_card_fraud_detection.ipynb` notebook. The key steps were:
@@ -73,7 +72,7 @@ Follow these steps to run the application on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Ashish-kharde1/credit-card-fraud-detection.git
+    git clone https://github.com/intellisenseCodez/credit-card-fraud-detection.git
     cd credit-card-fraud-detection
     ```
 
@@ -124,9 +123,6 @@ Follow these steps to run the application on your local machine.
 ## 📂 File Structure
 ```
 credit-card-fraud-detection/
-│
-├── .devcontainer/
-│   └── devcontainer.json   # Configuration for GitHub Codespaces
 │
 ├── app.py                  # The main Streamlit application script
 ├── LICENSE                 # MIT License file
